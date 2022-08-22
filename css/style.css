@@ -5,7 +5,9 @@
 }
 
 /*start nav*/
-nav{
+nav{ position: sticky;
+    top: 0px;
+    background-color: white;
 
 }
 nav a{
@@ -24,6 +26,15 @@ nav span{
 
 
 /*start header*/
-
+header{
+    position: relative;
+}
+header>p{
+    position: absolute;
+    bottom: 10%;
+    float: left;
+    padding-left: 35px;
+    font-size: xx-large;
+}
 
 /*end header*/
