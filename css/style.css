@@ -38,3 +38,36 @@ header>p{
 }
 
 /*end header*/
+/*start section*/
+
+section {
+    padding-top: 60px;
+    padding-bottom: 46;
+    box-sizing: initial;
+    display:inline-block;
+    margin:auto
+
+
+}
+.c1{
+    width: 49%;
+    padding: 8px 35px;
+    float: left;
+    padding: 24px 24px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.c2{
+    width: 49%;
+    text-align: center;
+    float: right;
+    font-family:'Times New Roman', Times, serif;
+    
+}
+.c2 p{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.c2 p span{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+/*end section*/
