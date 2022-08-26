@@ -5,9 +5,13 @@
 }
 
 /*start nav*/
-nav{ position: sticky;
-    top: 0px;
-    background-color: white;
+nav{    
+    
+    background-color: #FFFFFF;
+    width: 100%;
+    position: fixed;
+    z-index: 999;
+    box-shadow: black 1px 1px 8px 2px;
 
 }
 nav a{
@@ -15,11 +19,23 @@ nav a{
     padding: 15px;
     text-decoration: none;
     display: inline-block;
+    text-transform: capitalize;
+    
 
+
+    
 }
 nav span{
     float: right;
+    text-transform: capitalize;
 }
+
+nav span :hover{
+    background-color: #CCCCCC;
+}
+
+    
+
 
 /*end nav*/
 
@@ -50,10 +66,9 @@ section {
 
 }
 .c1{
-    width: 49%;
-    padding: 8px 35px;
+    width: 50%;
+    padding: 30px 100px;
     float: left;
-    padding: 24px 24px;
     font-family: 'Times New Roman', Times, serif;
 }
 .c2{
@@ -61,13 +76,21 @@ section {
     text-align: center;
     float: right;
     font-family:'Times New Roman', Times, serif;
+    padding: 44px;
     
 }
 .c2 p{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    line-height: 27px;
+    margin: 18px;
+    
+    
+    
 }
 .c2 p span{
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    
+
 }
 
 /*end section*/
